@@ -1,1 +1,2 @@
 # ICMLA-25-Multi-Class-Mental-Condition
+The current repository contains the codebase of the research paper "Mental Multi-class Classification on Social Media: Benchmarking Transformer Architectures against LSTM Models", which has been submitted in the proceedings of ICMLA'25. The dataset for this research work is stored in different storage and is available upon request.

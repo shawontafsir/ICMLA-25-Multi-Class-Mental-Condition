@@ -1,0 +1,33 @@
+Kruskal–Wallis across classes:
+len_tokens           H=10993.989050370385  p=0.0
+type_token           H=10941.30735894225  p=0.0
+avg_wordlen          H=8435.34587140954  p=0.0
+first_pron           H=16462.733023661196  p=0.0
+verb_ratio           H=5631.326532664383  p=0.0
+past_present_ratio   H=6942.992291873569  p=0.0
+neg_words            H=3005.532510172797  p=0.0
+sent_pos             H=850.4198246549657  p=1.95839779910687e-180
+sent_neg             H=31453.43098385122  p=0.0
+sent_comp            H=14620.52645960448  p=0.0
+fk_grade             H=3015.2007106510137  p=0.0
+emo_anger            H=4866.726332989096  p=0.0
+emo_fear             H=22777.74251850468  p=0.0
+emo_joy              H=4309.059873737636  p=0.0
+emo_sadness          H=4080.183836446836  p=0.0
+qmark_density        H=4150.711931997023  p=0.0
+
+Features with p < 0.001: ['len_tokens', 'type_token', 'avg_wordlen', 'first_pron', 'verb_ratio', 'past_present_ratio', 'neg_words', 'sent_pos', 'sent_neg', 'sent_comp', 'fk_grade', 'emo_anger', 'emo_fear', 'emo_joy', 'emo_sadness', 'qmark_density']
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\umap\umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+Scaled Logistic Regression macro-F1 = 0.369
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\sklearn\linear_model\_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\sklearn\linear_model\_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\sklearn\linear_model\_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\sklearn\linear_model\_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+C:\Users\kh597s\Documents\Programs\Python\Research\venv\Lib\site-packages\sklearn\linear_model\_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+Hybrid TF-IDF + Ling macro-F1 = 0.832

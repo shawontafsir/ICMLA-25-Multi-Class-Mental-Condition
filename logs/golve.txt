@@ -1,0 +1,741 @@
+BiLSTMWithAttentionWithGlove:
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 1/300: 100%|████████████████████████████████████████| 4200/4200 [06:26<00:00, 10.88it/s, lr=1e-6, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:46<00:00, 22.82it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9466736171359107, 1.9460952053751264
+=> Saving checkpoint
+Epoch 2/300: 100%|████████████████████████████████████████| 4200/4200 [06:25<00:00, 10.90it/s, lr=1e-6, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:46<00:00, 22.81it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9463145820299785, 1.9459865140914916
+=> Saving checkpoint
+Epoch 3/300: 100%|████████████████████████████████████████| 4200/4200 [06:03<00:00, 11.55it/s, lr=1e-6, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:46<00:00, 22.81it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9460494505223773, 1.9459441238357906
+=> Saving checkpoint
+Epoch 4/300: 100%|████████████████████████████████████████| 4200/4200 [06:25<00:00, 10.91it/s, lr=1e-6, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:46<00:00, 22.81it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.946232414359138, 1.9459248832293918
+=> Saving checkpoint
+Epoch 5/300: 100%|████████████████████████████████████████| 4200/4200 [06:25<00:00, 10.90it/s, lr=1e-6, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:46<00:00, 22.82it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9462739345857076, 1.9459166896910896
+=> Saving checkpoint
+Epoch 6/300: 100%|████████████████████████████████████████| 4200/4200 [06:24<00:00, 10.93it/s, lr=1e-7, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:37<00:00, 27.74it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9462341534239904, 1.945916068440392
+=> Saving checkpoint
+Epoch 7/300: 100%|████████████████████████████████████████| 4200/4200 [06:12<00:00, 11.27it/s, lr=1e-7, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:45<00:00, 22.83it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9461616563513164, 1.9459158806573778
+=> Saving checkpoint
+Epoch 8/300: 100%|████████████████████████████████████████| 4200/4200 [06:25<00:00, 10.91it/s, lr=1e-7, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:46<00:00, 22.82it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.946100259962536, 1.94591539700826
+=> Saving checkpoint
+Epoch 9/300: 100%|████████████████████████████████████████| 4200/4200 [06:25<00:00, 10.89it/s, lr=1e-7, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:46<00:00, 22.82it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9462168428727558, 1.9459152602014087
+=> Saving checkpoint
+Epoch 10/300: 100%|███████████████████████████████████████| 4200/4200 [06:02<00:00, 11.57it/s, lr=1e-8, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:46<00:00, 22.81it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.946199860941796, 1.9459152810914175
+Epoch 11/300: 100%|███████████████████████████████████████| 4200/4200 [06:25<00:00, 10.90it/s, lr=1e-8, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:46<00:00, 22.82it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9461335781642368, 1.945915088767097
+=> Saving checkpoint
+Epoch 12/300: 100%|███████████████████████████████████████| 4200/4200 [06:25<00:00, 10.89it/s, lr=1e-8, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:46<00:00, 22.83it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9462497757446198, 1.9459150962602525
+Epoch 13/300: 100%|███████████████████████████████████████| 4200/4200 [06:26<00:00, 10.87it/s, lr=1e-8, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:46<00:00, 22.81it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9460760551407223, 1.9459151345207577
+Epoch 14/300: 100%|███████████████████████████████████████| 4200/4200 [06:03<00:00, 11.55it/s, lr=1e-8, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:45<00:00, 22.83it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9461626103094647, 1.9459151636986505
+Epoch 15/300: 100%|███████████████████████████████████████| 4200/4200 [06:25<00:00, 10.89it/s, lr=1e-8, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:46<00:00, 22.82it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9462396774405524, 1.9459151740301224
+Epoch 16/300: 100%|███████████████████████████████████████| 4200/4200 [06:24<00:00, 10.91it/s, lr=1e-8, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:46<00:00, 22.82it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9461530714375632, 1.9459151002338955
+Early stopping at epoch 16
+Train losses per epoch: [1.9466736171359107, 1.9463145820299785, 1.9460494505223773, 1.946232414359138, 1.9462739345857076, 1.9462341534239904, 1.9461616563513164, 1.946100259962536, 1.9462168428727558, 1.946199860941796, 1.9461335781642368, 1.9462497757446198, 1.9460760551407223, 1.9461626103094647, 1.9462396774405524, 1.9461530714375632]
+Valid losses per epoch: [1.9460952053751264, 1.9459865140914916, 1.9459441238357906, 1.9459248832293918, 1.9459166896910896, 1.945916068440392, 1.9459158806573778, 1.94591539700826, 1.9459152602014087, 1.9459152810914175, 1.945915088767097, 1.9459150962602525, 1.9459151345207577, 1.9459151636986505, 1.9459151740301224, 1.9459151002338955]
+Trained BiLSTMWithAttentionWithgloveEmbeddings model in 6821.0954 seconds
+=> Loading checkpoint
+Evaluating test dataset of 21000 instances: 100%|███████████████████████████████████| 1313/1313 [01:01<00:00, 21.49it/s]
+Accuracy: 0.14285714285714285
+[0. 0. 1. 0. 0. 0. 0.]
+F1-score: 0.03571577387153036
+F1-score: [0.         0.         0.25001042 0.         0.         0.
+ 0.        ]
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision: 0.020409135128883687
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision: [0.         0.         0.14286395 0.         0.         0.
+ 0.        ]
+Recall: 0.14285714285714285
+Recall: [0. 0. 1. 0. 0. 0. 0.]
+BiLSTMWithGlove:
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 1/300: 100%|████████████████████████████████████████| 4200/4200 [05:53<00:00, 11.89it/s, lr=1e-6, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:41<00:00, 25.09it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9465017531315485, 1.9461641107286727
+=> Saving checkpoint
+Epoch 2/300: 100%|████████████████████████████████████████| 4200/4200 [06:16<00:00, 11.17it/s, lr=1e-6, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:43<00:00, 24.28it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.946210949108714, 1.9459701890037173
+=> Saving checkpoint
+Epoch 3/300: 100%|████████████████████████████████████████| 4200/4200 [06:14<00:00, 11.21it/s, lr=1e-6, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:43<00:00, 24.27it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.946172349538122, 1.9459235862323216
+=> Saving checkpoint
+Epoch 4/300: 100%|████████████████████████████████████████| 4200/4200 [06:15<00:00, 11.17it/s, lr=1e-6, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:43<00:00, 24.24it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.945994962283543, 1.945914220355806
+=> Saving checkpoint
+Epoch 5/300: 100%|████████████████████████████████████████| 4200/4200 [05:51<00:00, 11.95it/s, lr=1e-6, train_loss=1.96]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:43<00:00, 24.26it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9460273329700744, 1.945911951859792
+=> Saving checkpoint
+Epoch 6/300: 100%|████████████████████████████████████████| 4200/4200 [06:15<00:00, 11.18it/s, lr=1e-6, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:43<00:00, 24.25it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9460537974607377, 1.9459124586695717
+Epoch 7/300: 100%|████████████████████████████████████████| 4200/4200 [06:14<00:00, 11.22it/s, lr=1e-6, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:43<00:00, 24.22it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9460175941671645, 1.94591106289909
+=> Saving checkpoint
+Epoch 8/300: 100%|████████████████████████████████████████| 4200/4200 [06:16<00:00, 11.16it/s, lr=1e-7, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:43<00:00, 24.24it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.946018251209032, 1.9459110468909855
+=> Saving checkpoint
+Epoch 9/300: 100%|████████████████████████████████████████| 4200/4200 [05:52<00:00, 11.93it/s, lr=1e-7, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:43<00:00, 24.25it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.946014200477373, 1.9459111337434678
+Epoch 10/300: 100%|███████████████████████████████████████| 4200/4200 [06:15<00:00, 11.18it/s, lr=1e-7, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:43<00:00, 24.27it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9459854578120368, 1.9459107244582403
+=> Saving checkpoint
+Epoch 11/300: 100%|███████████████████████████████████████| 4200/4200 [06:14<00:00, 11.22it/s, lr=1e-7, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:43<00:00, 24.20it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9459424949259985, 1.9459109360831124
+Epoch 12/300: 100%|███████████████████████████████████████| 4200/4200 [06:16<00:00, 11.15it/s, lr=1e-8, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:37<00:00, 28.06it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9459654712109338, 1.9459108484359016
+Epoch 13/300: 100%|███████████████████████████████████████| 4200/4200 [05:57<00:00, 11.75it/s, lr=1e-8, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:43<00:00, 24.22it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9461032851253237, 1.9459108203933353
+Epoch 14/300: 100%|███████████████████████████████████████| 4200/4200 [06:15<00:00, 11.18it/s, lr=1e-8, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:43<00:00, 24.30it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9460723534368334, 1.945910737173898
+Epoch 15/300: 100%|███████████████████████████████████████| 4200/4200 [06:14<00:00, 11.22it/s, lr=1e-8, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:43<00:00, 24.26it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9461141171341851, 1.945910917690822
+Early stopping at epoch 15
+Train losses per epoch: [1.9465017531315485, 1.946210949108714, 1.946172349538122, 1.945994962283543, 1.9460273329700744, 1.9460537974607377, 1.9460175941671645, 1.946018251209032, 1.946014200477373, 1.9459854578120368, 1.9459424949259985, 1.9459654712109338, 1.9461032851253237, 1.9460723534368334, 1.9461141171341851]
+Valid losses per epoch: [1.9461641107286727, 1.9459701890037173, 1.9459235862323216, 1.945914220355806, 1.945911951859792, 1.9459124586695717, 1.94591106289909, 1.9459110468909855, 1.9459111337434678, 1.9459107244582403, 1.9459109360831124, 1.9459108484359016, 1.9459108203933353, 1.945910737173898, 1.945910917690822]
+Trained BiLSTMWithgloveEmbeddings model in 6189.2834 seconds
+=> Loading checkpoint
+Evaluating test dataset of 21000 instances: 100%|███████████████████████████████████| 1313/1313 [01:00<00:00, 21.68it/s]
+Accuracy: 0.14285714285714285
+[0. 0. 0. 0. 0. 1. 0.]
+F1-score: 0.03571428571428571
+F1-score: [0.   0.   0.   0.   0.   0.25 0.  ]
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision: 0.02040816326530612
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision: [0.         0.         0.         0.         0.         0.14285714
+ 0.        ]
+Recall: 0.14285714285714285
+Recall: [0. 0. 0. 0. 0. 1. 0.]
+LSTMWithAttentionWithGlove:
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 1/300: 100%|████████████████████████████████████████| 4200/4200 [03:33<00:00, 19.71it/s, lr=1e-6, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:21<00:00, 47.87it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9469734754732677, 1.9462130132175628
+=> Saving checkpoint
+Epoch 2/300: 100%|████████████████████████████████████████| 4200/4200 [03:28<00:00, 20.18it/s, lr=1e-6, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.06it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9463993801673254, 1.9460095563389006
+=> Saving checkpoint
+Epoch 3/300: 100%|████████████████████████████████████████| 4200/4200 [03:37<00:00, 19.31it/s, lr=1e-6, train_loss=1.96]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.07it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.946302965482076, 1.9459405335925875
+=> Saving checkpoint
+Epoch 4/300: 100%|████████████████████████████████████████| 4200/4200 [03:37<00:00, 19.32it/s, lr=1e-6, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.10it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9462747918991816, 1.945919237363906
+=> Saving checkpoint
+Epoch 5/300: 100%|████████████████████████████████████████| 4200/4200 [03:37<00:00, 19.29it/s, lr=1e-6, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.06it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.946142223874728, 1.9459137167249407
+=> Saving checkpoint
+Epoch 6/300: 100%|████████████████████████████████████████| 4200/4200 [03:37<00:00, 19.30it/s, lr=1e-6, train_loss=1.96]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.11it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9461315458445323, 1.9459126256761097
+=> Saving checkpoint
+Epoch 7/300: 100%|████████████████████████████████████████| 4200/4200 [03:38<00:00, 19.26it/s, lr=1e-7, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:23<00:00, 44.26it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.946236192271823, 1.9459125699315751
+=> Saving checkpoint
+Epoch 8/300: 100%|████████████████████████████████████████| 4200/4200 [03:22<00:00, 20.78it/s, lr=1e-7, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.11it/s]
+Accuracy: 0.1394642857142857
+F1 score: 0.04204261466230602
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.03191618259239305
+Recall score: 0.13946428571428574
+Train and validation losses: 1.946217858535903, 1.945912609668005
+Epoch 9/300: 100%|████████████████████████████████████████| 4200/4200 [03:37<00:00, 19.35it/s, lr=1e-7, train_loss=1.93]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.05it/s]
+Accuracy: 0.14267857142857143
+F1 score: 0.03616120257020373
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.0331017038268605
+Recall score: 0.14267857142857143
+Train and validation losses: 1.9461363999332701, 1.9459124911399115
+=> Saving checkpoint
+Epoch 10/300: 100%|███████████████████████████████████████| 4200/4200 [03:37<00:00, 19.29it/s, lr=1e-7, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.10it/s]
+Accuracy: 0.14267857142857143
+F1 score: 0.03617124233257472
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.031615081999126
+Recall score: 0.14267857142857143
+Train and validation losses: 1.9461617546989805, 1.9459125686827161
+Epoch 11/300: 100%|███████████████████████████████████████| 4200/4200 [03:37<00:00, 19.29it/s, lr=1e-8, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.09it/s]
+Accuracy: 0.14261904761904762
+F1 score: 0.035935333112993344
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.027375586636791755
+Recall score: 0.14261904761904762
+Train and validation losses: 1.946096335933322, 1.9459124903451828
+=> Saving checkpoint
+Epoch 12/300: 100%|███████████████████████████████████████| 4200/4200 [03:36<00:00, 19.36it/s, lr=1e-8, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.08it/s]
+Accuracy: 0.14261904761904762
+F1 score: 0.03582593474904715
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.024271602032146088
+Recall score: 0.14261904761904762
+Train and validation losses: 1.9462481855778466, 1.9459124406178792
+=> Saving checkpoint
+Epoch 13/300: 100%|███████████████████████████████████████| 4200/4200 [03:36<00:00, 19.40it/s, lr=1e-8, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.05it/s]
+Accuracy: 0.14261904761904762
+F1 score: 0.03582048987073686
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02460862670250016
+Recall score: 0.14261904761904762
+Train and validation losses: 1.9459307245413462, 1.9459125354176476
+Epoch 14/300: 100%|███████████████████████████████████████| 4200/4200 [03:19<00:00, 21.03it/s, lr=1e-8, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.08it/s]
+Accuracy: 0.14267857142857143
+F1 score: 0.035833581952363865
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.024743253406699462
+Recall score: 0.1426785714285714
+Train and validation losses: 1.9461901491312754, 1.9459124952270872
+Epoch 15/300: 100%|███████████████████████████████████████| 4200/4200 [03:37<00:00, 19.32it/s, lr=1e-8, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.10it/s]
+Accuracy: 0.14267857142857143
+F1 score: 0.035833581952363865
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.024743253406699462
+Recall score: 0.1426785714285714
+Train and validation losses: 1.9461718573172888, 1.9459123670487177
+=> Saving checkpoint
+Epoch 16/300: 100%|███████████████████████████████████████| 4200/4200 [03:35<00:00, 19.46it/s, lr=1e-8, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.08it/s]
+Accuracy: 0.14267857142857143
+F1 score: 0.035833581952363865
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.024743253406699462
+Recall score: 0.1426785714285714
+Train and validation losses: 1.946190098949841, 1.945912518047151
+Epoch 17/300: 100%|███████████████████████████████████████| 4200/4200 [03:38<00:00, 19.22it/s, lr=1e-8, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.10it/s]
+Accuracy: 0.14273809523809525
+F1 score: 0.035843041789833656
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02518102052985774
+Recall score: 0.14273809523809525
+Train and validation losses: 1.94618117749691, 1.9459124235879808
+Epoch 18/300: 100%|███████████████████████████████████████| 4200/4200 [03:37<00:00, 19.33it/s, lr=1e-8, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.11it/s]
+Accuracy: 0.14273809523809525
+F1 score: 0.03584122667978891
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.025344006617099124
+Recall score: 0.14273809523809525
+Train and validation losses: 1.9462114421810424, 1.9459123675028482
+Epoch 19/300: 100%|███████████████████████████████████████| 4200/4200 [03:37<00:00, 19.31it/s, lr=1e-8, train_loss=1.96]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.11it/s]
+Accuracy: 0.14273809523809525
+F1 score: 0.035843041789833656
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02518102052985774
+Recall score: 0.14273809523809525
+Train and validation losses: 1.946347334356535, 1.9459126654125396
+Epoch 20/300: 100%|███████████████████████████████████████| 4200/4200 [03:22<00:00, 20.70it/s, lr=1e-8, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 40.14it/s]
+Accuracy: 0.14279761904761903
+F1 score: 0.03585431448948089
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.025527239276344926
+Recall score: 0.14279761904761903
+Train and validation losses: 1.9464411688418615, 1.9459125065803529
+Early stopping at epoch 20
+Train losses per epoch: [1.9469734754732677, 1.9463993801673254, 1.946302965482076, 1.9462747918991816, 1.946142223874728, 1.9461315458445323, 1.946236192271823, 1.946217858535903, 1.9461363999332701, 1.9461617546989805, 1.946096335933322, 1.9462481855778466, 1.9459307245413462, 1.9461901491312754, 1.9461718573172888, 1.946190098949841, 1.94618117749691, 1.9462114421810424, 1.946347334356535, 1.9464411688418615]
+Valid losses per epoch: [1.9462130132175628, 1.9460095563389006, 1.9459405335925875, 1.945919237363906, 1.9459137167249407, 1.9459126256761097, 1.9459125699315751, 1.945912609668005, 1.9459124911399115, 1.9459125686827161, 1.9459124903451828, 1.9459124406178792, 1.9459125354176476, 1.9459124952270872, 1.9459123670487177, 1.945912518047151, 1.9459124235879808, 1.9459123675028482, 1.9459126654125396, 1.9459125065803529]
+Trained LSTMWithAttentionWithgloveEmbeddings model in 4819.6429 seconds
+=> Loading checkpoint
+Evaluating test dataset of 21000 instances: 100%|███████████████████████████████████| 1313/1313 [00:32<00:00, 40.76it/s]
+Accuracy: 0.14285714285714285
+[0. 0. 0. 0. 0. 0. 1.]
+F1-score: 0.03571428571428571
+F1-score: [0.   0.   0.   0.   0.   0.   0.25]
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision: 0.02040816326530612
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision: [0.         0.         0.         0.         0.         0.
+ 0.14285714]
+Recall: 0.14285714285714285
+Recall: [0. 0. 0. 0. 0. 0. 1.]
+LSTMWithGlove:
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.2 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Epoch 1/300: 100%|████████████████████████████████████████| 4200/4200 [03:35<00:00, 19.49it/s, lr=1e-6, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.35it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.946575935170764, 1.9461807843617032
+=> Saving checkpoint
+Epoch 2/300: 100%|████████████████████████████████████████| 4200/4200 [03:37<00:00, 19.35it/s, lr=1e-6, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.31it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9461813538698922, 1.9460258230708893
+=> Saving checkpoint
+Epoch 3/300: 100%|████████████████████████████████████████| 4200/4200 [03:35<00:00, 19.50it/s, lr=1e-6, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.30it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.946116786570776, 1.9459643205006918
+=> Saving checkpoint
+Epoch 4/300: 100%|████████████████████████████████████████| 4200/4200 [03:34<00:00, 19.61it/s, lr=1e-6, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.35it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9461007155407042, 1.9459370963914053
+=> Saving checkpoint
+Epoch 5/300: 100%|████████████████████████████████████████| 4200/4200 [03:36<00:00, 19.40it/s, lr=1e-6, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.32it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9461215923229853, 1.945922147773561
+=> Saving checkpoint
+Epoch 6/300: 100%|████████████████████████████████████████| 4200/4200 [03:17<00:00, 21.28it/s, lr=1e-6, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.31it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9460541596582959, 1.9459158679417201
+=> Saving checkpoint
+Epoch 7/300: 100%|████████████████████████████████████████| 4200/4200 [03:35<00:00, 19.48it/s, lr=1e-6, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.36it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9460506785483587, 1.9459139189266024
+=> Saving checkpoint
+Epoch 8/300: 100%|████████████████████████████████████████| 4200/4200 [03:36<00:00, 19.40it/s, lr=1e-7, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.34it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9460281337726684, 1.9459137547583807
+=> Saving checkpoint
+Epoch 9/300: 100%|████████████████████████████████████████| 4200/4200 [03:36<00:00, 19.38it/s, lr=1e-7, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.31it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9459410068818501, 1.9459131947017851
+=> Saving checkpoint
+Epoch 10/300: 100%|███████████████████████████████████████| 4200/4200 [03:35<00:00, 19.45it/s, lr=1e-7, train_loss=1.96]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.35it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9459834629581088, 1.9459130473363968
+=> Saving checkpoint
+Epoch 11/300: 100%|███████████████████████████████████████| 4200/4200 [03:36<00:00, 19.38it/s, lr=1e-7, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.30it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.946078472279367, 1.9459127417064848
+=> Saving checkpoint
+Epoch 12/300: 100%|███████████████████████████████████████| 4200/4200 [03:21<00:00, 20.84it/s, lr=1e-8, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:25<00:00, 40.87it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9459355430659793, 1.9459130225862775
+Epoch 13/300: 100%|███████████████████████████████████████| 4200/4200 [03:35<00:00, 19.45it/s, lr=1e-8, train_loss=1.95]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.31it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9459371323812575, 1.9459130392755781
+Epoch 14/300: 100%|███████████████████████████████████████| 4200/4200 [03:37<00:00, 19.32it/s, lr=1e-8, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.31it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9460840399208523, 1.9459130288305737
+Epoch 15/300: 100%|███████████████████████████████████████| 4200/4200 [03:36<00:00, 19.43it/s, lr=1e-8, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.28it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.9460813890752338, 1.9459128525143579
+Epoch 16/300: 100%|███████████████████████████████████████| 4200/4200 [03:35<00:00, 19.47it/s, lr=1e-8, train_loss=1.94]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [00:26<00:00, 39.31it/s]
+Accuracy: 0.14285714285714285
+F1 score: 0.03571428571428571
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision score: 0.02040816326530612
+Recall score: 0.14285714285714285
+Train and validation losses: 1.945965954746519, 1.9459127649806796
+Early stopping at epoch 16
+Train losses per epoch: [1.946575935170764, 1.9461813538698922, 1.946116786570776, 1.9461007155407042, 1.9461215923229853, 1.9460541596582959, 1.9460506785483587, 1.9460281337726684, 1.9459410068818501, 1.9459834629581088, 1.946078472279367, 1.9459355430659793, 1.9459371323812575, 1.9460840399208523, 1.9460813890752338, 1.945965954746519]
+Valid losses per epoch: [1.9461807843617032, 1.9460258230708893, 1.9459643205006918, 1.9459370963914053, 1.945922147773561, 1.9459158679417201, 1.9459139189266024, 1.9459137547583807, 1.9459131947017851, 1.9459130473363968, 1.9459127417064848, 1.9459130225862775, 1.9459130392755781, 1.9459130288305737, 1.9459128525143579, 1.9459127649806796]
+Trained LSTMWithgloveEmbeddings model in 3854.5678 seconds
+=> Loading checkpoint
+Evaluating test dataset of 21000 instances: 100%|███████████████████████████████████| 1313/1313 [00:31<00:00, 41.06it/s]
+Accuracy: 0.14285714285714285
+[0. 0. 0. 0. 0. 1. 0.]
+F1-score: 0.03571577387153036
+F1-score: [0.         0.         0.         0.         0.         0.25001042
+ 0.        ]
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision: 0.020409135128883687
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/sklearn/metrics/_classification.py:1497: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, f"{metric.capitalize()} is", len(result))
+Precision: [0.         0.         0.         0.         0.         0.14286395
+ 0.        ]
+Recall: 0.14285714285714285
+Recall: [0. 0. 0. 0. 0. 1. 0.]

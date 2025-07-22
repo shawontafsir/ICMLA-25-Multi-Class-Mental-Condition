@@ -1,0 +1,567 @@
+Roberta:
+Fold 1/5
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Fold 1: Epoch 1/100: 100%|███████████████████████████████| 4200/4200 [45:46<00:00,  1.53it/s, lr=1e-6, train_loss=0.245]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.25it/s]
+Accuracy: 0.9257738095238095
+F1-score: 0.9257776623198124
+Precision score: 0.9258716630376506
+Recall score: 0.9257738095238095
+Train and validation losses: 0.5520832418127074, 0.2381686020748956
+=> Saving checkpoint
+Fold 1: Epoch 2/100: 100%|██████████████████████████████| 4200/4200 [45:49<00:00,  1.53it/s, lr=1e-6, train_loss=0.0188]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.25it/s]
+Accuracy: 0.9349404761904762
+F1-score: 0.9349478475450352
+Precision score: 0.9350728180769049
+Recall score: 0.9349404761904763
+Train and validation losses: 0.22062624580404233, 0.2000516267502237
+=> Saving checkpoint
+Fold 1: Epoch 3/100: 100%|█████████████████████████████| 4200/4200 [1:00:43<00:00,  1.15it/s, lr=1e-6, train_loss=0.183]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [04:52<00:00,  3.60it/s]
+Accuracy: 0.9394642857142858
+F1-score: 0.9395704796002226
+Precision score: 0.9400272511735726
+Recall score: 0.9394642857142858
+Train and validation losses: 0.18432176429955732, 0.19032545925295424
+=> Saving checkpoint
+Fold 1: Epoch 4/100: 100%|████████████████████████████| 4200/4200 [1:35:30<00:00,  1.36s/it, lr=1e-6, train_loss=0.0863]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [04:50<00:00,  3.62it/s]
+Accuracy: 0.9416071428571429
+F1-score: 0.941506261793023
+Precision score: 0.9414890101467935
+Recall score: 0.9416071428571428
+Train and validation losses: 0.16462407573647353, 0.17927962213444212
+=> Saving checkpoint
+Fold 1: Epoch 5/100: 100%|████████████████████████████| 4200/4200 [1:35:28<00:00,  1.36s/it, lr=1e-6, train_loss=0.0303]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [04:47<00:00,  3.65it/s]
+Accuracy: 0.9429166666666666
+F1-score: 0.9430085084977174
+Precision score: 0.9433210804655845
+Recall score: 0.9429166666666667
+Train and validation losses: 0.14966674516975348, 0.17754353163542136
+=> Saving checkpoint
+Fold 1: Epoch 6/100: 100%|████████████████████████████| 4200/4200 [1:35:31<00:00,  1.36s/it, lr=1e-6, train_loss=0.0125]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [04:47<00:00,  3.66it/s]
+Accuracy: 0.9436904761904762
+F1-score: 0.9436539371851609
+Precision score: 0.944017635377557
+Recall score: 0.9436904761904763
+Train and validation losses: 0.13601303954065466, 0.17770433885533185
+Fold 1: Epoch 7/100: 100%|████████████████████████████| 4200/4200 [1:35:33<00:00,  1.37s/it, lr=1e-6, train_loss=0.0207]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [04:50<00:00,  3.62it/s]
+Accuracy: 0.9410119047619048
+F1-score: 0.9409363099773582
+Precision score: 0.9414466024805217
+Recall score: 0.9410119047619049
+Train and validation losses: 0.12415018428028339, 0.18380066843282078
+Fold 1: Epoch 8/100: 100%|█████████████████████████████| 4200/4200 [1:35:30<00:00,  1.36s/it, lr=1e-6, train_loss=0.201]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [04:49<00:00,  3.62it/s]
+Accuracy: 0.9442857142857143
+F1-score: 0.9444342068204289
+Precision score: 0.9452665367922002
+Recall score: 0.9442857142857143
+Train and validation losses: 0.1151801679234597, 0.17682114395667756
+=> Saving checkpoint
+Fold 1: Epoch 9/100: 100%|█████████████████████████████| 4200/4200 [1:35:29<00:00,  1.36s/it, lr=1e-6, train_loss=0.186]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [04:50<00:00,  3.61it/s]
+Accuracy: 0.9457142857142857
+F1-score: 0.9456812011762666
+Precision score: 0.9457856827850651
+Recall score: 0.9457142857142856
+Train and validation losses: 0.10482544970687567, 0.17140505794690744
+=> Saving checkpoint
+Fold 1: Epoch 10/100: 100%|███████████████████████████| 4200/4200 [1:35:33<00:00,  1.37s/it, lr=1e-6, train_loss=0.0526]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [04:49<00:00,  3.63it/s]
+Accuracy: 0.9468452380952381
+F1-score: 0.9469701303127679
+Precision score: 0.947207383961242
+Recall score: 0.9468452380952381
+Train and validation losses: 0.0959883694079638, 0.1711533214032118
+=> Saving checkpoint
+Fold 1: Epoch 11/100: 100%|████████████████████████████| 4200/4200 [1:31:20<00:00,  1.30s/it, lr=1e-6, train_loss=0.028]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.25it/s]
+Accuracy: 0.9458928571428571
+F1-score: 0.9459762618068932
+Precision score: 0.9465376246110638
+Recall score: 0.9458928571428571
+Train and validation losses: 0.0889937724406454, 0.17958956551970914
+Fold 1: Epoch 12/100: 100%|█████████████████████████████| 4200/4200 [45:49<00:00,  1.53it/s, lr=1e-6, train_loss=0.0232]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.25it/s]
+Accuracy: 0.9473809523809524
+F1-score: 0.9473952968397124
+Precision score: 0.9475338064383746
+Recall score: 0.9473809523809523
+Train and validation losses: 0.08035984182278515, 0.17898872708901764
+Fold 1: Epoch 13/100: 100%|█████████████████████████████| 4200/4200 [45:49<00:00,  1.53it/s, lr=1e-6, train_loss=0.0797]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.25it/s]
+Accuracy: 0.9466071428571429
+F1-score: 0.9467160661451653
+Precision score: 0.9469271399393282
+Recall score: 0.946607142857143
+Train and validation losses: 0.07220262532438418, 0.18443043885619512
+Early stopping at epoch 13
+Fold 1: Train losses per epoch: [0.5520832418127074, 0.22062624580404233, 0.18432176429955732, 0.16462407573647353, 0.14966674516975348, 0.13601303954065466, 0.12415018428028339, 0.1151801679234597, 0.10482544970687567, 0.0959883694079638, 0.0889937724406454, 0.08035984182278515, 0.07220262532438418]
+Fold 1: Valid losses per epoch: [0.2381686020748956, 0.2000516267502237, 0.19032545925295424, 0.17927962213444212, 0.17754353163542136, 0.17770433885533185, 0.18380066843282078, 0.17682114395667756, 0.17140505794690744, 0.1711533214032118, 0.17958956551970914, 0.17898872708901764, 0.18443043885619512]
+Fold 2/5
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Fold 2: Epoch 1/100: 100%|███████████████████████████████| 4200/4200 [45:46<00:00,  1.53it/s, lr=1e-6, train_loss=0.124]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.26it/s]
+Accuracy: 0.9272619047619047
+F1-score: 0.9271440101028471
+Precision score: 0.9272917609021226
+Recall score: 0.9272619047619048
+Train and validation losses: 0.5564090116047079, 0.2338828828895376
+=> Saving checkpoint
+Fold 2: Epoch 2/100: 100%|███████████████████████████████| 4200/4200 [45:47<00:00,  1.53it/s, lr=1e-6, train_loss=0.461]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.25it/s]
+Accuracy: 0.9380357142857143
+F1-score: 0.9382594507673506
+Precision score: 0.9391465100078719
+Recall score: 0.9380357142857143
+Train and validation losses: 0.22204829061581266, 0.1944656705554752
+=> Saving checkpoint
+Fold 2: Epoch 3/100: 100%|██████████████████████████████| 4200/4200 [45:43<00:00,  1.53it/s, lr=1e-6, train_loss=0.0961]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.25it/s]
+Accuracy: 0.9415476190476191
+F1-score: 0.9415887521431888
+Precision score: 0.9417836717284075
+Recall score: 0.9415476190476192
+Train and validation losses: 0.18574310904590502, 0.18259857967584617
+=> Saving checkpoint
+Fold 2: Epoch 4/100: 100%|███████████████████████████████| 4200/4200 [45:47<00:00,  1.53it/s, lr=1e-6, train_loss=0.414]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.25it/s]
+Accuracy: 0.9436904761904762
+F1-score: 0.9436582965306458
+Precision score: 0.9437681883468965
+Recall score: 0.9436904761904763
+Train and validation losses: 0.164180120436386, 0.17490286942083566
+=> Saving checkpoint
+Fold 2: Epoch 5/100: 100%|███████████████████████████████| 4200/4200 [45:45<00:00,  1.53it/s, lr=1e-6, train_loss=0.216]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.26it/s]
+Accuracy: 0.9426190476190476
+F1-score: 0.942718983549699
+Precision score: 0.9437265426207128
+Recall score: 0.9426190476190477
+Train and validation losses: 0.14767717611865097, 0.17376689494764877
+=> Saving checkpoint
+Fold 2: Epoch 6/100: 100%|███████████████████████████████| 4200/4200 [45:47<00:00,  1.53it/s, lr=1e-6, train_loss=0.135]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.25it/s]
+Accuracy: 0.9439285714285715
+F1-score: 0.9441830037006627
+Precision score: 0.9450672251230394
+Recall score: 0.9439285714285715
+Train and validation losses: 0.13557678304313284, 0.17356441234238446
+=> Saving checkpoint
+Fold 2: Epoch 7/100: 100%|██████████████████████████████| 4200/4200 [45:47<00:00,  1.53it/s, lr=1e-6, train_loss=0.0449]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.26it/s]
+Accuracy: 0.9473214285714285
+F1-score: 0.9473915127599734
+Precision score: 0.9475903920319251
+Recall score: 0.9473214285714286
+Train and validation losses: 0.1249068778912936, 0.16371075532798257
+=> Saving checkpoint
+Fold 2: Epoch 8/100: 100%|██████████████████████████████| 4200/4200 [50:32<00:00,  1.39it/s, lr=1e-6, train_loss=0.0217]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.24it/s]
+Accuracy: 0.9481547619047619
+F1-score: 0.9480762983593543
+Precision score: 0.9483902832829625
+Recall score: 0.948154761904762
+Train and validation losses: 0.11358506393280723, 0.16595211028187934
+Fold 2: Epoch 9/100: 100%|███████████████████████████████| 4200/4200 [43:12<00:00,  1.62it/s, lr=1e-6, train_loss=0.196]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.24it/s]
+Accuracy: 0.9483333333333334
+F1-score: 0.9484566673472417
+Precision score: 0.9486608895130816
+Recall score: 0.9483333333333334
+Train and validation losses: 0.1043926306026766, 0.16458284566311965
+Fold 2: Epoch 10/100: 100%|██████████████████████████████| 4200/4200 [28:29<00:00,  2.46it/s, lr=1e-6, train_loss=0.323]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.24it/s]
+Accuracy: 0.9471428571428572
+F1-score: 0.947299223892048
+Precision score: 0.9477055467482035
+Recall score: 0.9471428571428573
+Train and validation losses: 0.09587119323667138, 0.16830388010268854
+Early stopping at epoch 10
+Fold 2: Train losses per epoch: [0.5564090116047079, 0.22204829061581266, 0.18574310904590502, 0.164180120436386, 0.14767717611865097, 0.13557678304313284, 0.1249068778912936, 0.11358506393280723, 0.1043926306026766, 0.09587119323667138]
+Fold 2: Valid losses per epoch: [0.2338828828895376, 0.1944656705554752, 0.18259857967584617, 0.17490286942083566, 0.17376689494764877, 0.17356441234238446, 0.16371075532798257, 0.16595211028187934, 0.16458284566311965, 0.16830388010268854]
+Fold 3/5
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Fold 3: Epoch 1/100: 100%|██████████████████████████████| 4200/4200 [28:29<00:00,  2.46it/s, lr=1e-6, train_loss=0.0611]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.23it/s]
+Accuracy: 0.9254166666666667
+F1-score: 0.9255557461902872
+Precision score: 0.9261926331695111
+Recall score: 0.9254166666666668
+Train and validation losses: 0.5695101525670007, 0.24624592758715153
+=> Saving checkpoint
+Fold 3: Epoch 2/100: 100%|██████████████████████████████| 4200/4200 [30:33<00:00,  2.29it/s, lr=1e-6, train_loss=0.0375]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:48<00:00,  6.23it/s]
+Accuracy: 0.935952380952381
+F1-score: 0.9362172056187958
+Precision score: 0.9366782899817828
+Recall score: 0.935952380952381
+Train and validation losses: 0.2242587575509346, 0.20303984788468196
+=> Saving checkpoint
+Fold 3: Epoch 3/100: 100%|███████████████████████████████| 4200/4200 [36:00<00:00,  1.94it/s, lr=1e-6, train_loss=0.139]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:48<00:00,  6.23it/s]
+Accuracy: 0.9414880952380953
+F1-score: 0.941483880736871
+Precision score: 0.9416798122806461
+Recall score: 0.9414880952380952
+Train and validation losses: 0.18835305215569123, 0.18511021629685448
+=> Saving checkpoint
+Fold 3: Epoch 4/100: 100%|██████████████████████████████| 4200/4200 [35:43<00:00,  1.96it/s, lr=1e-6, train_loss=0.0256]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.23it/s]
+Accuracy: 0.9439880952380952
+F1-score: 0.9440619759845905
+Precision score: 0.9441713822104677
+Recall score: 0.9439880952380951
+Train and validation losses: 0.16799162212737082, 0.17577273881595049
+=> Saving checkpoint
+Fold 3: Epoch 5/100: 100%|███████████████████████████████| 4200/4200 [28:31<00:00,  2.45it/s, lr=1e-6, train_loss=0.198]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.24it/s]
+Accuracy: 0.945
+F1-score: 0.9450685699436774
+Precision score: 0.9453346326325531
+Recall score: 0.9450000000000002
+Train and validation losses: 0.15166180255601094, 0.1735393723468518
+=> Saving checkpoint
+Fold 3: Epoch 6/100: 100%|██████████████████████████████| 4200/4200 [28:30<00:00,  2.46it/s, lr=1e-6, train_loss=0.0474]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.25it/s]
+Accuracy: 0.9455357142857143
+F1-score: 0.9456243332470696
+Precision score: 0.945779484003327
+Recall score: 0.9455357142857143
+Train and validation losses: 0.13772192816094805, 0.16891819175288436
+=> Saving checkpoint
+Fold 3: Epoch 7/100: 100%|███████████████████████████████| 4200/4200 [28:29<00:00,  2.46it/s, lr=1e-6, train_loss=0.421]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.24it/s]
+Accuracy: 0.9455357142857143
+F1-score: 0.9456167609074416
+Precision score: 0.9458492095833068
+Recall score: 0.9455357142857144
+Train and validation losses: 0.12655560788000003, 0.17031216387614787
+Fold 3: Epoch 8/100: 100%|██████████████████████████████| 4200/4200 [28:30<00:00,  2.46it/s, lr=1e-6, train_loss=0.0193]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.23it/s]
+Accuracy: 0.9479166666666666
+F1-score: 0.9479835518442989
+Precision score: 0.9481224514301017
+Recall score: 0.9479166666666667
+Train and validation losses: 0.11544349676497015, 0.1669696014627282
+=> Saving checkpoint
+Fold 3: Epoch 9/100: 100%|██████████████████████████████| 4200/4200 [28:29<00:00,  2.46it/s, lr=1e-6, train_loss=0.0338]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.24it/s]
+Accuracy: 0.9473809523809524
+F1-score: 0.9475665235602051
+Precision score: 0.9478626117860128
+Recall score: 0.9473809523809524
+Train and validation losses: 0.10729847276721903, 0.16920820868418862
+Fold 3: Epoch 10/100: 100%|█████████████████████████████| 4200/4200 [28:28<00:00,  2.46it/s, lr=1e-6, train_loss=0.0486]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.24it/s]
+Accuracy: 0.9474404761904762
+F1-score: 0.9473454571115619
+Precision score: 0.9474090136101859
+Recall score: 0.9474404761904763
+Train and validation losses: 0.09817175890163829, 0.17283658029467222
+Fold 3: Epoch 11/100: 100%|█████████████████████████████| 4200/4200 [28:30<00:00,  2.46it/s, lr=1e-6, train_loss=0.0163]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.23it/s]
+Accuracy: 0.9475
+F1-score: 0.9474209583698204
+Precision score: 0.9474326198999563
+Recall score: 0.9475
+Train and validation losses: 0.09016719782913458, 0.17616833760081568
+Early stopping at epoch 11
+Fold 3: Train losses per epoch: [0.5695101525670007, 0.2242587575509346, 0.18835305215569123, 0.16799162212737082, 0.15166180255601094, 0.13772192816094805, 0.12655560788000003, 0.11544349676497015, 0.10729847276721903, 0.09817175890163829, 0.09016719782913458]
+Fold 3: Valid losses per epoch: [0.24624592758715153, 0.20303984788468196, 0.18511021629685448, 0.17577273881595049, 0.1735393723468518, 0.16891819175288436, 0.17031216387614787, 0.1669696014627282, 0.16920820868418862, 0.17283658029467222, 0.17616833760081568]
+Fold 4/5
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Fold 4: Epoch 1/100: 100%|███████████████████████████████| 4200/4200 [28:30<00:00,  2.46it/s, lr=1e-6, train_loss=0.291]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.24it/s]
+Accuracy: 0.9284523809523809
+F1-score: 0.9284503403031311
+Precision score: 0.9291009836622658
+Recall score: 0.9284523809523809
+Train and validation losses: 0.5857531690943454, 0.2311366068908856
+=> Saving checkpoint
+Fold 4: Epoch 2/100: 100%|███████████████████████████████| 4200/4200 [28:56<00:00,  2.42it/s, lr=1e-6, train_loss=0.379]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:25<00:00,  7.22it/s]
+Accuracy: 0.9394047619047619
+F1-score: 0.9393949378120541
+Precision score: 0.9400049874853076
+Recall score: 0.939404761904762
+Train and validation losses: 0.22365903083700686, 0.19003751195257618
+=> Saving checkpoint
+Fold 4: Epoch 3/100: 100%|███████████████████████████████| 4200/4200 [38:04<00:00,  1.84it/s, lr=1e-6, train_loss=0.252]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.22it/s]
+Accuracy: 0.9417857142857143
+F1-score: 0.9418761422558356
+Precision score: 0.9428902213009506
+Recall score: 0.9417857142857142
+Train and validation losses: 0.18641184941976374, 0.18121526750868985
+=> Saving checkpoint
+Fold 4: Epoch 4/100: 100%|███████████████████████████████| 4200/4200 [34:13<00:00,  2.04it/s, lr=1e-6, train_loss=0.123]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [06:33<00:00,  2.67it/s]
+Accuracy: 0.9414880952380953
+F1-score: 0.9417964049840547
+Precision score: 0.9433452295026422
+Recall score: 0.9414880952380952
+Train and validation losses: 0.16440976308082186, 0.1791853168815197
+=> Saving checkpoint
+Fold 4: Epoch 5/100: 100%|████████████████████████████| 4200/4200 [1:00:38<00:00,  1.15it/s, lr=1e-6, train_loss=0.0943]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [04:33<00:00,  3.83it/s]
+Accuracy: 0.9465476190476191
+F1-score: 0.9465708513763743
+Precision score: 0.9466743756517794
+Recall score: 0.9465476190476191
+Train and validation losses: 0.14915802077212859, 0.16459333500847043
+=> Saving checkpoint
+Fold 4: Epoch 6/100: 100%|███████████████████████████████| 4200/4200 [56:30<00:00,  1.24it/s, lr=1e-6, train_loss=0.275]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [04:33<00:00,  3.84it/s]
+Accuracy: 0.9470238095238095
+F1-score: 0.9471052824496734
+Precision score: 0.9472189933986634
+Recall score: 0.9470238095238095
+Train and validation losses: 0.13709001162167017, 0.16217917289984013
+=> Saving checkpoint
+Fold 4: Epoch 7/100: 100%|██████████████████████████████| 4200/4200 [54:59<00:00,  1.27it/s, lr=1e-6, train_loss=0.0197]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [04:33<00:00,  3.84it/s]
+Accuracy: 0.9451190476190476
+F1-score: 0.9453595818858617
+Precision score: 0.9464833509602597
+Recall score: 0.9451190476190475
+Train and validation losses: 0.12493430586820024, 0.1695581291267826
+Fold 4: Epoch 8/100: 100%|███████████████████████████████| 4200/4200 [56:26<00:00,  1.24it/s, lr=1e-6, train_loss=0.412]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [04:33<00:00,  3.84it/s]
+Accuracy: 0.9479166666666666
+F1-score: 0.9480197956831935
+Precision score: 0.9487441553448415
+Recall score: 0.9479166666666666
+Train and validation losses: 0.11348799801342899, 0.16623911205845485
+Fold 4: Epoch 9/100: 100%|██████████████████████████████| 4200/4200 [56:29<00:00,  1.24it/s, lr=1e-6, train_loss=0.0616]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [04:33<00:00,  3.84it/s]
+Accuracy: 0.9494642857142858
+F1-score: 0.9494777486021423
+Precision score: 0.9495719881606977
+Recall score: 0.9494642857142855
+Train and validation losses: 0.10415970826965003, 0.15945846432498434
+=> Saving checkpoint
+Fold 4: Epoch 10/100: 100%|█████████████████████████████| 4200/4200 [53:41<00:00,  1.30it/s, lr=1e-6, train_loss=0.0217]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.24it/s]
+Accuracy: 0.9494047619047619
+F1-score: 0.9494291069199853
+Precision score: 0.9494717814688889
+Recall score: 0.9494047619047619
+Train and validation losses: 0.09640572093000326, 0.16460540696479647
+Fold 4: Epoch 11/100: 100%|█████████████████████████████| 4200/4200 [28:30<00:00,  2.45it/s, lr=1e-6, train_loss=0.0377]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.23it/s]
+Accuracy: 0.945595238095238
+F1-score: 0.9459182728031361
+Precision score: 0.9473152991925048
+Recall score: 0.945595238095238
+Train and validation losses: 0.0864424372973874, 0.1812609542060333
+Fold 4: Epoch 12/100: 100%|████████████████████████████| 4200/4200 [28:30<00:00,  2.46it/s, lr=1e-6, train_loss=0.00843]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.24it/s]
+Accuracy: 0.9498809523809524
+F1-score: 0.9499522934878534
+Precision score: 0.9502156646184119
+Recall score: 0.9498809523809523
+Train and validation losses: 0.08042929488239765, 0.16996355301500962
+Early stopping at epoch 12
+Fold 4: Train losses per epoch: [0.5857531690943454, 0.22365903083700686, 0.18641184941976374, 0.16440976308082186, 0.14915802077212859, 0.13709001162167017, 0.12493430586820024, 0.11348799801342899, 0.10415970826965003, 0.09640572093000326, 0.0864424372973874, 0.08042929488239765]
+Fold 4: Valid losses per epoch: [0.2311366068908856, 0.19003751195257618, 0.18121526750868985, 0.1791853168815197, 0.16459333500847043, 0.16217917289984013, 0.1695581291267826, 0.16623911205845485, 0.15945846432498434, 0.16460540696479647, 0.1812609542060333, 0.16996355301500962]
+Fold 5/5
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/SGF.EDUBEAR.NET/kh597s/research/venv/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:28: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn("The verbose parameter is deprecated. Please use get_last_lr() "
+Fold 5: Epoch 1/100: 100%|███████████████████████████████| 4200/4200 [28:28<00:00,  2.46it/s, lr=1e-6, train_loss=0.175]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.24it/s]
+Accuracy: 0.9269642857142857
+F1-score: 0.9272632337241855
+Precision score: 0.9279306850865809
+Recall score: 0.9269642857142858
+Train and validation losses: 0.5638509191138049, 0.2351793601718687
+=> Saving checkpoint
+Fold 5: Epoch 2/100: 100%|███████████████████████████████| 4200/4200 [28:29<00:00,  2.46it/s, lr=1e-6, train_loss=0.109]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.23it/s]
+Accuracy: 0.9391071428571428
+F1-score: 0.9391023200053918
+Precision score: 0.9394064711370786
+Recall score: 0.9391071428571428
+Train and validation losses: 0.2244589472058717, 0.193224974081275
+=> Saving checkpoint
+Fold 5: Epoch 3/100: 100%|███████████████████████████████| 4200/4200 [28:30<00:00,  2.45it/s, lr=1e-6, train_loss=0.334]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.24it/s]
+Accuracy: 0.9423214285714285
+F1-score: 0.9424452215556949
+Precision score: 0.94303900281273
+Recall score: 0.9423214285714285
+Train and validation losses: 0.1863187759560311, 0.18080487171143647
+=> Saving checkpoint
+Fold 5: Epoch 4/100: 100%|███████████████████████████████| 4200/4200 [28:30<00:00,  2.46it/s, lr=1e-6, train_loss=0.193]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.24it/s]
+Accuracy: 0.9435714285714286
+F1-score: 0.9435508022077891
+Precision score: 0.9439183637840907
+Recall score: 0.9435714285714286
+Train and validation losses: 0.1651160642963701, 0.17463759937057538
+=> Saving checkpoint
+Fold 5: Epoch 5/100: 100%|██████████████████████████████| 4200/4200 [28:30<00:00,  2.46it/s, lr=1e-6, train_loss=0.0684]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.24it/s]
+Accuracy: 0.9447023809523809
+F1-score: 0.9447549465764647
+Precision score: 0.9449500822557889
+Recall score: 0.9447023809523809
+Train and validation losses: 0.14881607665380994, 0.17187183490466504
+=> Saving checkpoint
+Fold 5: Epoch 6/100: 100%|███████████████████████████████| 4200/4200 [28:31<00:00,  2.45it/s, lr=1e-6, train_loss=0.011]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.23it/s]
+Accuracy: 0.9460119047619048
+F1-score: 0.9461323787520348
+Precision score: 0.9464176534146167
+Recall score: 0.9460119047619049
+Train and validation losses: 0.13717642913639014, 0.16689409080515838
+=> Saving checkpoint
+Fold 5: Epoch 7/100: 100%|██████████████████████████████| 4200/4200 [28:31<00:00,  2.45it/s, lr=1e-6, train_loss=0.0896]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.24it/s]
+Accuracy: 0.9477380952380953
+F1-score: 0.9479378187382979
+Precision score: 0.948408528328728
+Recall score: 0.9477380952380952
+Train and validation losses: 0.1236832008291302, 0.169088580265996
+Fold 5: Epoch 8/100: 100%|██████████████████████████████| 4200/4200 [28:30<00:00,  2.46it/s, lr=1e-6, train_loss=0.0421]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:07<00:00,  8.24it/s]
+Accuracy: 0.9481547619047619
+F1-score: 0.9481859845525202
+Precision score: 0.9482598861222219
+Recall score: 0.9481547619047619
+Train and validation losses: 0.1135673808979447, 0.16514160665528227
+=> Saving checkpoint
+Fold 5: Epoch 9/100: 100%|█████████████████████████████| 4200/4200 [28:40<00:00,  2.44it/s, lr=1e-6, train_loss=0.00549]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:27<00:00,  7.10it/s]
+Accuracy: 0.9479166666666666
+F1-score: 0.9479099948237532
+Precision score: 0.9479552285039359
+Recall score: 0.9479166666666667
+Train and validation losses: 0.10390811545829777, 0.16939877044719953
+Fold 5: Epoch 10/100: 100%|██████████████████████████████| 4200/4200 [31:26<00:00,  2.23it/s, lr=1e-6, train_loss=0.014]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:27<00:00,  7.10it/s]
+Accuracy: 0.9480357142857143
+F1-score: 0.9481394672164545
+Precision score: 0.9484672849571967
+Recall score: 0.9480357142857143
+Train and validation losses: 0.09539039886329279, 0.17244744268157297
+Fold 5: Epoch 11/100: 100%|████████████████████████████| 4200/4200 [31:26<00:00,  2.23it/s, lr=1e-6, train_loss=0.00479]
+Evaluating validation dataset of 16800 instances: 100%|█████████████████████████████| 1050/1050 [02:28<00:00,  7.08it/s]
+Accuracy: 0.9484523809523809
+F1-score: 0.948511502295562
+Precision score: 0.948815528828762
+Recall score: 0.9484523809523809
+Train and validation losses: 0.08801541883431907, 0.17622643474810978
+Early stopping at epoch 11
+Fold 5: Train losses per epoch: [0.5638509191138049, 0.2244589472058717, 0.1863187759560311, 0.1651160642963701, 0.14881607665380994, 0.13717642913639014, 0.1236832008291302, 0.1135673808979447, 0.10390811545829777, 0.09539039886329279, 0.08801541883431907]
+Fold 5: Valid losses per epoch: [0.2351793601718687, 0.193224974081275, 0.18080487171143647, 0.17463759937057538, 0.17187183490466504, 0.16689409080515838, 0.169088580265996, 0.16514160665528227, 0.16939877044719953, 0.17244744268157297, 0.17622643474810978]
+Some weights of RobertaForSequenceClassification were not initialized from the model checkpoint at roberta-base and are newly initialized: ['classifier.dense.bias', 'classifier.dense.weight', 'classifier.out_proj.bias', 'classifier.out_proj.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+=> Loading checkpoint
+Fold 1: Evaluating test dataset of 21000 instances: 100%|███████████████████████████| 1313/1313 [03:02<00:00,  7.20it/s]
+['Control' 'adhd' 'anxiety' 'bipolar' 'cptsd' 'depression' 'schizophrenia']
+Fold 1: Accuracy: 0.9497142857142857
+[0.98233333 0.97066667 0.94533333 0.92233333 0.94933333 0.92633333
+ 0.95166667]
+Fold 1: F1-score: 0.9498384817228899
+Fold 1: F1-score: [0.98942421 0.97554439 0.93612807 0.92665774 0.95330544 0.91534914
+ 0.95246038]
+Precision: 0.9500573657585167
+Precision: [0.99661819 0.98047138 0.92710036 0.93102288 0.95731092 0.9046224
+ 0.95325543]
+Recall: 0.9497142857142856
+Recall: [0.98233333 0.97066667 0.94533333 0.92233333 0.94933333 0.92633333
+ 0.95166667]
+=> Loading checkpoint
+Fold 2: Evaluating test dataset of 21000 instances: 100%|███████████████████████████| 1313/1313 [03:03<00:00,  7.14it/s]
+['Control' 'adhd' 'anxiety' 'bipolar' 'cptsd' 'depression' 'schizophrenia']
+Fold 2: Accuracy: 0.9493809523809524
+[0.989      0.97366667 0.94       0.93066667 0.951      0.906
+ 0.95533333]
+Fold 2: F1-score: 0.9494180462469497
+Fold 2: F1-score: [0.99131306 0.97578086 0.93953023 0.92130012 0.95497908 0.91070531
+ 0.95231766]
+Precision: 0.9494992428729806
+Precision: [0.99363697 0.97790425 0.93906094 0.91212022 0.9589916  0.91545975
+ 0.94932097]
+Recall: 0.9493809523809524
+Recall: [0.989      0.97366667 0.94       0.93066667 0.951      0.906
+ 0.95533333]
+=> Loading checkpoint
+Fold 3: Evaluating test dataset of 21000 instances: 100%|███████████████████████████| 1313/1313 [03:03<00:00,  7.17it/s]
+['Control' 'adhd' 'anxiety' 'bipolar' 'cptsd' 'depression' 'schizophrenia']
+Fold 3: Accuracy: 0.9496190476190476
+[0.98933333 0.97933333 0.94333333 0.91433333 0.94566667 0.922
+ 0.95333333]
+Fold 3: F1-score: 0.9496867082679948
+Fold 3: F1-score: [0.9904889  0.97705354 0.9380179  0.92232683 0.95682968 0.90912079
+ 0.95396931]
+Precision: 0.9498738340112879
+Precision: [0.99164718 0.97478434 0.93276203 0.93046133 0.96825939 0.89659643
+ 0.95460614]
+Recall: 0.9496190476190476
+Recall: [0.98933333 0.97933333 0.94333333 0.91433333 0.94566667 0.922
+ 0.95333333]
+=> Loading checkpoint
+Fold 4: Evaluating test dataset of 21000 instances: 100%|███████████████████████████| 1313/1313 [03:03<00:00,  7.17it/s]
+['Control' 'adhd' 'anxiety' 'bipolar' 'cptsd' 'depression' 'schizophrenia']
+Fold 4: Accuracy: 0.9506666666666667
+[0.98966667 0.97333333 0.931      0.925      0.956      0.91533333
+ 0.96433333]
+Fold 4: F1-score: 0.9506696067701277
+Fold 4: F1-score: [0.99032688 0.97512106 0.93929712 0.92793847 0.95631877 0.91168659
+ 0.95399835]
+Precision: 0.9507330810353526
+Precision: [0.99098798 0.97691536 0.94774347 0.93089567 0.95663776 0.90806878
+ 0.94388254]
+Recall: 0.9506666666666667
+Recall: [0.98966667 0.97333333 0.931      0.925      0.956      0.91533333
+ 0.96433333]
+=> Loading checkpoint
+Fold 5: Evaluating test dataset of 21000 instances: 100%|███████████████████████████| 1313/1313 [03:04<00:00,  7.13it/s]
+['Control' 'adhd' 'anxiety' 'bipolar' 'cptsd' 'depression' 'schizophrenia']
+Fold 5: Accuracy: 0.9488571428571428
+[0.98533333 0.97766667 0.927      0.91166667 0.965      0.91966667
+ 0.95566667]
+Fold 5: F1-score: 0.9488701119243245
+Fold 5: F1-score: [0.99028476 0.97652738 0.93541877 0.92539333 0.95198948 0.90951047
+ 0.95296659]
+Precision: 0.9490559234364453
+Precision: [0.9952862  0.97539075 0.94399185 0.93953968 0.93932511 0.89957613
+ 0.95028174]
+Recall: 0.948857142857143
+Recall: [0.98533333 0.97766667 0.927      0.91166667 0.965      0.91966667
+ 0.95566667]
+['Control' 'adhd' 'anxiety' 'bipolar' 'cptsd' 'depression' 'schizophrenia']
+Cross Validation Accuracy: 0.9518095238095238
+[0.98866667 0.97666667 0.94       0.92166667 0.95566667 0.92333333
+ 0.95666667]
+Cross Validation F1-score: 0.951863783695997
+Cross Validation F1-score: [0.99197324 0.97780744 0.94031344 0.92676387 0.95742194 0.91464421
+ 0.95412234]
+Cross Validation Precision: 0.9519557198966079
+Cross Validation Precision: [0.99530201 0.97895089 0.94062708 0.93191776 0.95918367 0.90611711
+ 0.95159151]
+Cross Validation Recall: 0.9518095238095238
+Cross Validation Recall: [0.98866667 0.97666667 0.94       0.92166667 0.95566667 0.92333333
+ 0.95666667]
+Trained Roberta model in 168193.4538 seconds

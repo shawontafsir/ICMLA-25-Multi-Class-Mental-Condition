@@ -1,0 +1,42 @@
+Avg. HashTag count of Control labeled post: 0.1236
+Avg. URL count of Control labeled post: 0.14153333333333334
+Avg. character count of Control labeled post: 794.4036
+Avg. Token count of Control labeled post: 79.56626666666666
+Control POS tag count:  {'noun': 592587, 'pronoun': 185135, 'verb': 389319, 'adjective': 157409}
+Avg. Control pos tag count:  [('noun', 39.5058), ('pronoun', 12.342333333333332), ('verb', 25.9546), ('adjective', 10.493933333333333)]
+Avg. HashTag count of adhd labeled post: 0.1128
+Avg. URL count of adhd labeled post: 0.03546666666666667
+Avg. character count of adhd labeled post: 1178.437
+Avg. Token count of adhd labeled post: 106.34273333333333
+adhd POS tag count:  {'noun': 676522, 'pronoun': 459815, 'verb': 747799, 'adjective': 250170}
+Avg. adhd pos tag count:  [('noun', 45.10146666666667), ('pronoun', 30.654333333333334), ('verb', 49.85326666666667), ('adjective', 16.678)]
+Avg. HashTag count of anxiety labeled post: 0.07526666666666666
+Avg. URL count of anxiety labeled post: 0.013533333333333333
+Avg. character count of anxiety labeled post: 1243.5271333333333
+Avg. Token count of anxiety labeled post: 111.76266666666666
+anxiety POS tag count:  {'pronoun': 517884, 'verb': 811612, 'noun': 684037, 'adjective': 277109}
+Avg. anxiety pos tag count:  [('pronoun', 34.5256), ('verb', 54.10746666666667), ('noun', 45.602466666666665), ('adjective', 18.473933333333335)]
+Avg. HashTag count of bipolar labeled post: 0.048466666666666665
+Avg. URL count of bipolar labeled post: 0.02
+Avg. character count of bipolar labeled post: 967.9846666666666
+Avg. Token count of bipolar labeled post: 86.9418
+bipolar POS tag count:  {'pronoun': 401960, 'noun': 533693, 'verb': 625627, 'adjective': 223404}
+Avg. bipolar pos tag count:  [('pronoun', 26.797333333333334), ('noun', 35.57953333333333), ('verb', 41.708466666666666), ('adjective', 14.8936)]
+Avg. HashTag count of cptsd labeled post: 0.1614
+Avg. URL count of cptsd labeled post: 0.0348
+Avg. character count of cptsd labeled post: 1840.2352
+Avg. Token count of cptsd labeled post: 160.26373333333333
+cptsd POS tag count:  {'noun': 987267, 'verb': 1172364, 'pronoun': 797453, 'adjective': 399799}
+Avg. cptsd pos tag count:  [('noun', 65.8178), ('verb', 78.1576), ('pronoun', 53.16353333333333), ('adjective', 26.653266666666667)]
+Avg. HashTag count of depression labeled post: 0.071
+Avg. URL count of depression labeled post: 0.013666666666666667
+Avg. character count of depression labeled post: 1523.9701333333333
+Avg. Token count of depression labeled post: 133.52913333333333
+depression POS tag count:  {'pronoun': 697547, 'verb': 1033646, 'noun': 789205, 'adjective': 327237}
+Avg. depression pos tag count:  [('pronoun', 46.50313333333333), ('verb', 68.90973333333334), ('noun', 52.61366666666667), ('adjective', 21.8158)]
+Avg. HashTag count of schizophrenia labeled post: 0.10333333333333333
+Avg. URL count of schizophrenia labeled post: 0.06633333333333333
+Avg. character count of schizophrenia labeled post: 1062.1038666666666
+Avg. Token count of schizophrenia labeled post: 93.57486666666667
+schizophrenia POS tag count:  {'verb': 673666, 'adjective': 222845, 'noun': 583215, 'pronoun': 433770}
+Avg. schizophrenia pos tag count:  [('verb', 44.91106666666666), ('adjective', 14.856333333333334), ('noun', 38.881), ('pronoun', 28.918)]
